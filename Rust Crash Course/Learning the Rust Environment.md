@@ -26,3 +26,6 @@ Adds folder **target*r -> **debug** where is our **playground.exe**
 but the entire program needs to know, where do I start.
 
 `cargo update` will update our dependencies.
+`cargo fmt` formats our code
+
+# 7. Your First Rust Function
