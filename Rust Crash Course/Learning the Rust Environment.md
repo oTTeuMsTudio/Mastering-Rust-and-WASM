@@ -10,4 +10,11 @@ cd playground
 cargo add tokio --features full
 ```
 
-Adds features in Cargo.toml
+Adds dependencies in Cargo.toml
+
+```rust
+cargo build
+cargo run
+```
+
+Adds target `folder -> debug`
