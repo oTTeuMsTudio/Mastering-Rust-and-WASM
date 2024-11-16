@@ -30,4 +30,8 @@ but the entire program needs to know, where do I start.
 
 # 7. Your First Rust Function
 
-add function ```rust fn add_five```
+add function 
+
+```rust 
+fn add_five
+```
