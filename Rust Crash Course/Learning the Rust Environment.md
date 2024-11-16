@@ -17,4 +17,6 @@ cargo build
 cargo run
 ```
 
-Adds target **folder -> debug** where is our **playground.exe**
+Adds folder **target*r -> **debug** where is our **playground.exe**
+
+`cargo build --release` created a **release** folder
