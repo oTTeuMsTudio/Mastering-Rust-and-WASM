@@ -35,3 +35,15 @@ add function
 ```rust 
 fn add_five
 ```
+with an unsigned integer u32 (32 bits (4 bytes))
+
+```rust
+fn add_five(num: u32) 
+```
+and it`s going to return back an unsigned integer u32 and now we have an legitimate function
+
+```rust
+fn add_five(num: u32) -> u32 {
+
+}
+```
