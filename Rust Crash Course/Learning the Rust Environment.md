@@ -61,7 +61,15 @@ That`s because he is expecting u32.
 
 
 
+```rust
+fn add_five(num: u32) -> u32 {
 
+}
+
+fn main() {
+  let x: i32 = 50;
+}
+```
 
 
 
