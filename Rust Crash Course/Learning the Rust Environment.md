@@ -19,4 +19,5 @@ cargo run
 
 Adds folder **target*r -> **debug** where is our **playground.exe**
 
-`cargo build --release` created a **release** folder
+`cargo build --release` created a **release** folder with a final **playground file**. We can now run this file.
+`./target/release/playground.exe
