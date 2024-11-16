@@ -47,3 +47,37 @@ fn add_five(num: u32) -> u32 {
 
 }
 ```
+Rust is fantastic at ensuring that our code will work before I even go and run it. Rust makes you, forces you to get it right upfront.
+
+Most developers get really frustrated with the borrow checker and compiler whether or not it is going to compile.
+
+So, change your thinking on it because Rust is teaching you to be a better programmer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
