@@ -9,3 +9,5 @@ cd playground
 ```rust
 cargo add tokio --features full
 ```
+
+Adds features in Cargo.toml
