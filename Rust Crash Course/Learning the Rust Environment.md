@@ -60,7 +60,7 @@ That`s because he is expecting u32.
 
 
 
-
+EVERYTHING BY DEFAULT IS IMMUTABLE. Everything is defaulted to immutable.
 ```rust
 fn add_five(num: u32) -> u32 {
 
