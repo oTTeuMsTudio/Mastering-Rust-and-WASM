@@ -47,11 +47,15 @@ fn add_five(num: u32) -> u32 {
 
 }
 ```
-Rust is fantastic at ensuring that our code will work before I even go and run it. Rust makes you, forces you to get it right upfront.
+Rust is fantastic at ensuring that our code will work before I even go and run it. Rust makes you, forces you to get it right upfront. Most developers get really frustrated with the borrow checker and compiler whether or not it is going to compile. So, change your thinking on it because Rust is teaching you to be a better programmer. It`s teaching you about what is going to brake and why.
 
-Most developers get really frustrated with the borrow checker and compiler whether or not it is going to compile.
+In C for example, you would not get this errors, everything would feel fine but you could end up writing a program that takes up all the memory and crashes a computer, and that is very easy to do in a language like C.
 
-So, change your thinking on it because Rust is teaching you to be a better programmer.
+Rust will not make you do that and will help you understand, what is actualy happening with managing the memory, etc., in your program and doing things in the best way possible.
+
+So, right now is comming up wiht an error **mismatched types**. 
+
+That`s because he is expecting u32.
 
 
 
