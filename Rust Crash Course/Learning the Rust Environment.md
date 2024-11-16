@@ -17,4 +17,4 @@ cargo build
 cargo run
 ```
 
-Adds target `folder -> debug`
+Adds target **folder -> debug** where is our **playground.exe**
