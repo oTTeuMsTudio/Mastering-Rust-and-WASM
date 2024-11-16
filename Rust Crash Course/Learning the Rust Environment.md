@@ -60,7 +60,8 @@ That`s because he is expecting u32.
 
 
 
-EVERYTHING BY DEFAULT IS IMMUTABLE. Everything is defaulted to immutable.
+EVERYTHING BY DEFAULT IS IMMUTABLE. Everything is defaulted to immutable. If i wanted this to be a mutable variable, able to change the value of x, I would `let mut x = 50`
+
 ```rust
 fn add_five(num: u32) -> u32 {
 
