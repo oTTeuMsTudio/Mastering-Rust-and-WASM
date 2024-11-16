@@ -24,3 +24,5 @@ Adds folder **target*r -> **debug** where is our **playground.exe**
 
 **main.rs** is our entry point. The program will know, where to start. So, we can create different folders and files and functions in those files and call them from where ever
 but the entire program needs to know, where do I start.
+
+`cargo update` will update our dependencies.
