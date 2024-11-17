@@ -100,7 +100,19 @@ fn main() {
 }
 ```
 
+Complete the funtion and add `num + 5`
 
+```rust
+fn add_five(num: u32) -> u32 {
+    num + 5
+}
+
+fn main() {
+    let mut x: u32 = 50;
+    println!("{x}");
+
+    let y = add_five(x);
+}
 
 
 
