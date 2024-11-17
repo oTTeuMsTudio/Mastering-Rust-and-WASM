@@ -60,7 +60,7 @@ That`s because he is expecting u32.
 
 
 
-EVERYTHING BY DEFAULT IS IMMUTABLE. Everything is defaulted to immutable. If i wanted this to be a mutable variable, able to change the value of x, I would `let mut x = 50`
+EVERYTHING BY DEFAULT IS IMMUTABLE. Everything is defaulted to immutable. If i wanted this to be a mutable variable, able to change the value of x, I would put in `let mut x = 50`
 
 ```rust
 fn add_five(num: u32) -> u32 {
@@ -68,15 +68,21 @@ fn add_five(num: u32) -> u32 {
 }
 
 fn main() {
-  let x: i32 = 50;
+  let mut x: i32 = 50;
 }
 ```
 
+Its assuming x is an i32 wich is a signed intiger meaning it can go below 0, but we will force it to u32 because this is what our function expects.
 
+```rust
+fn add_five(num: u32) -> u32 {
 
+}
 
-
-
+fn main() {
+  let mut x: u32 = 50;
+}
+```
 
 
 
