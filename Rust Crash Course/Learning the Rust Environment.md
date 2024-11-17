@@ -87,9 +87,18 @@ fn main() {
 
 We need to close it with `;`, We are not returning printline so we put semicolon in to print the value of x.
 
+We`ll now send x to the function add_five
 
+```rust
+fn add_five(num: u32) -> u32 {}
 
+fn main() {
+    let mut x: u32 = 50;
+    println!("{x}");
 
+    let y = add_five(x);
+}
+```
 
 
 
