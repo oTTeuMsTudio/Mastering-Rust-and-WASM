@@ -11,6 +11,9 @@ fn main() {
     let y = add_five(x);
     println!("y is {y}");
 
+    let z = subtract_10(x);
+    println!("z is {z}");
+
     x = 70;
     println!("x is {x}");
 }
