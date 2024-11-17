@@ -81,9 +81,11 @@ fn add_five(num: u32) -> u32 {
 
 fn main() {
   let mut x: u32 = 50;
+  println!("{x}");
 }
 ```
 
+We need to close it with `;`, We are not returning printline so we put semicolon in to print the value of x.
 
 
 
