@@ -1,6 +1,8 @@
 mod my_funcs;
+mod other_funcs;
 
-use crate::my_funcs::{add_five, subtract_10};
+use crate::my_funcs::add_five;
+use crate::other_funcs::minus_funcs::subtract_10;
 
 fn main() {
     let mut x: u32 = 50;
