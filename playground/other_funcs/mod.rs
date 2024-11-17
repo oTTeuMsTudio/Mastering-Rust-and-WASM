@@ -1,1 +1,1 @@
-mod minus_funcs;
+pub mod minus_funcs;
