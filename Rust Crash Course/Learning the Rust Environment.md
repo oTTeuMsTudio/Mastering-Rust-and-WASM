@@ -116,7 +116,7 @@ fn main() {
 
 
 
-
+cargo test -- --nocapture
 
 
 
