@@ -138,7 +138,7 @@ cargo new --lib my_library
 /// let r: usize = 5;
 /// assert_eq!(add,(l, r), 25);
 /// ```
-
+```rust
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
@@ -152,4 +152,14 @@ mod tests {
         let result = add(2, 2);
         assert_eq!(result, 4);
     }
+}
+```
+
+# 13. Dead Code and Unused Variables
+
+```rust
+#[allow(dead_code, unused_variables)]
+fn _my_function (){
+  let _x =
+  let _y =
 }
