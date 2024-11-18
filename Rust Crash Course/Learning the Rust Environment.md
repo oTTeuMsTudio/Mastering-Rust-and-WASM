@@ -118,7 +118,9 @@ fn main() {
 
 cargo test -- --nocapture
 
+cargo test adds_five_test -- --nocapture
 
+RUST_BACKTRACE=1 cargo test adds_five_test
 
 
 
