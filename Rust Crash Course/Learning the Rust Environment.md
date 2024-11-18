@@ -113,7 +113,7 @@ fn main() {
 
     let y = add_five(x);
 }
-
+```
 
 
 cargo test -- --nocapture
@@ -122,6 +122,8 @@ cargo test adds_five_test -- --nocapture
 
 RUST_BACKTRACE=1 cargo test adds_five_test
 
+cargo doc
 
+cargo doc --open
 
 
